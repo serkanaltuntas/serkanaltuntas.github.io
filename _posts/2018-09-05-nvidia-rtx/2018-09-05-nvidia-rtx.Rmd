@@ -1,0 +1,44 @@
+---
+title: "NVIDIA RTX™ : More For AI, Less For Games"
+description: |
+  [NVIDIA®][nvidia] introduced a new graphics platform called [NVIDIA RTX™][nvidia-rtx]. It promises extraordinary visuals with the help of new light computing technology.
+author:
+  - name: Serkan Altuntaş
+    url: https://serkan.gen.tr/
+    # affiliation: Example Inc.
+    # affiliation_url: https://example.com/
+date: 09-05-2018
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+I am not a hardcore gamer, but at least I own a game console and would like to experience beautiful game graphics. I do not think the new Ray-tracing technology is a very critical entertainment factor for current games and most probably it will not be very crucial either. Until somebody invents a novel gameplay scenario that takes advantage of Ray-tracing, RTX is not more than a powerful GTX for games.
+
+While announcing, NVIDIA did not make the mistake of [Microsoft®][microsoft]. On the reveal event of [XBOX ONE™][xbox-one], Microsoft pushed none-gaming applications. But for a successful game console, you have to appeal gamers first. That is why NVIDIA should always talk about game technology first and not spend much time on boring stuff.
+
+Almost all types of GPUs can be used to train deep learning models. NVIDIA is more preferred thanks to the [CUDA®][cuda] platform. CUDA accelerates computation exponentially for classic algebraic computations. It makes ordinary graphics computing units useful for tasks other than graphics. But now, with [Quadro®][quadro] series of RTX platform, NVIDIA advertised the Tensor cores.
+
+I think we owe [Google®][google] a thank you. Google's invention of [Tensor Processing Units (TPUs)][tpu] accelerated the tensor computation race for NVIDIA. Google's [TensorFlow™][tensorflow] deep learning framework and many others need high-performance computing hardware for critical tasks. RTX platform will be the commodity hardware solution for independent scientists and engineers, since the Google's TPUs are unavailable for sale.
+
+Keeping a very efficient computing power in hand is very important if you are working on deep learning projects. That is why, the new RTX platform will play a crucial role for developers, more than gamers. I hope [AMD®][amd] will spend more time on tensor processing than Ray-tracing while answering NVIDIA's call. 
+
+[nvidia]: https://www.nvidia.com/
+[nvidia-rtx]: https://developer.nvidia.com/rtx/
+[microsoft]: https://www.microsoft.com/
+[xbox-one]: https://www.xbox.com/
+[cuda]: https://developer.nvidia.com/cuda-zone/
+[quadro]: https://www.nvidia.com/en-us/design-visualization/quadro/
+[google]: https://www.google.com/
+[tpu]: https://en.wikipedia.org/wiki/Tensor_processing_unit
+[tensorflow]: https://www.tensorflow.org
+[amd]: https://www.amd.com/
