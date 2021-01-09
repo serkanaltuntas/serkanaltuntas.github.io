@@ -1,7 +1,7 @@
 ---
 title: "NVIDIA RTX™ : More For AI, Less For Games"
 description: |
-  [NVIDIA®][nvidia] introduced a new graphics platform called [NVIDIA RTX™][nvidia-rtx]. It promises extraordinary visuals with the help of new light computing technology.
+  NVIDIA® introduced a new graphics platform called NVIDIA RTX™. It promises extraordinary visuals with the help of new light computing technology.
 author:
   - name: Serkan Altuntaş
     url: https://serkan.gen.tr/
@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+[NVIDIA®][nvidia] introduced a new graphics platform called [NVIDIA RTX™][nvidia-rtx]. It promises extraordinary visuals with the help of new light computing technology.
 
 I am not a hardcore gamer, but at least I own a game console and would like to experience beautiful game graphics. I do not think the new Ray-tracing technology is a very critical entertainment factor for current games and most probably it will not be very crucial either. Until somebody invents a novel gameplay scenario that takes advantage of Ray-tracing, RTX is not more than a powerful GTX for games.
 
